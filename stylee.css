@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Monserrat:wght@500&display=swap');
+
+
+
+.wrapper {
+  position: relative;
+  width: 80vw;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+
+span.numbs {
+  color: #000000;
+  display: flex;
+  place-items: center;
+  font-weight: 600;
+  font-size: 3em;
+  font-family: 'Monserrat';
+
+}
+
+.numbs::after {
+  content: "+";
+  font-size: 28px;
+
+}
+
+span.letters {
+  color: #000000;
+  font-size: 1em;
+  font-family: 'Monserrat';
+  text-align: left;
+  font-weight: 400;
+  opacity: 0.6;
+}

@@ -1,0 +1,99 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+.column {
+  margin-left: 8px;
+  float: left;
+  width: 16%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: rgb(238, 225, 225);
+}
+
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f28a5d;
+  color: white;
+}
+
+.container {
+  padding: 0 5px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #056c5f;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .column {
+    margin-left: 14%;
+    width: 30%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    margin-left: 10%;
+    margin-right: 5px;
+    width: 35%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    margin-left: 30%;
+    width: 45%;
+    display: block;
+  }
+}

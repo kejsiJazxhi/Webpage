@@ -1,0 +1,57 @@
+@media (max-width: 800px) {
+  .big {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+  }
+
+  img {
+    float: left;
+    margin: 0px;
+    margin-bottom: 4px;
+  }
+
+  .card1 {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-right: 0px;
+
+  }
+
+  .card2 {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-left: 0px;
+  }
+
+  .text_div {
+    transform: translate(24%, -102%);
+
+
+  }
+
+  .exp {
+    transform: translate(0%, -292%);
+    margin-top: 0px;
+  }
+
+  .text {
+    margin-bottom: 70px;
+    width: 200px;
+    margin-left: 20px;
+  }
+
+  .div1 {
+    background-color: white;
+    border-radius: 7px;
+    border-radius: 7px;
+  }
+
+  .div1:hover {
+    background-color: white;
+  }
+
+}

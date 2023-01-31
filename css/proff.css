@@ -1,0 +1,85 @@
+.therapy{
+     background-color: rgb(252, 252, 244);
+     text-align: center;
+    
+}
+.header h1{
+    font-family: "Montserrat",sans-serif serif;
+
+
+}
+.boxs{
+   display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.image{
+    position: relative;
+    border-radius: 5px;
+    margin: 10px;
+   
+}
+
+.image1{
+    display: block;
+     width: 210px;
+    height: 210px;
+    border-radius: 10px;
+    object-fit: cover;
+ 
+
+}
+.overlay{
+    position: absolute;
+    text-align: center; 
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    width: 180px;
+    height: 170px;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   opacity: 0;
+   transition: opacity 0.25s;
+}
+.overlay:hover{
+    opacity: 1;
+}
+
+.title a{
+    justify-content: space-between;
+}
+p .desc{
+    margin-left: 60px;
+    color: black;
+}
+.buton{
+    background-color: #f28a5d;
+    line-height: 2px;
+    border-radius: 5px;
+    padding: 15px 20px ;  
+    
+}
+.black{
+    color: black;
+}
+.buton a{
+    color: white;
+    font-family: "Montserrat", serif;
+    text-decoration: none;
+    font-size: 10px;
+    
+}
+.image .names{
+    text-align: center; 
+}
+.image .names h3{
+     color: #056c5f;
+    font-family: "Roboto Slab", serif;
+}
+
+

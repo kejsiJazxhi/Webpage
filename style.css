@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+p {
+  font-size: 13px;
+}
+
+
+.textt {
+  display: inline-block;
+  font-size: 150%;
+  height: 30%;
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 150px;
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.5;
+}
+
+.send {
+  background-color: #056c5f;
+  color: white;
+  border: none;
+  height: 43px;
+  width: 190px;
+  cursor: pointer;
+  border-radius: 3px;
+  float: left;
+}
+
+.photto {
+  width: 350px;
+  height: 250px;
+  float: right;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 4%;
+  border-radius: 70px 1px 1px 1px;
+
+}
+
+div {
+
+  box-sizing: border-box;
+  padding-bottom: 0px;
+
+}
+
+.send a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width:1100px) {
+  .text {
+    display: inline-block;
+    font-size: 50px;
+    position: static;
+    max-width: 40%;
+    height: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+}
+
+@media (max-width:800px) {
+  .text {
+    display: inline-block;
+    font-size: 120%;
+    position: static;
+    max-width: 40%;
+    height: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  img {
+    width: 40%;
+    height: 35%;
+    position: relative;
+    float: right;
+    margin-top: 2%;
+    margin-right: 5%;
+    left: 5%;
+  }
+
+
+}

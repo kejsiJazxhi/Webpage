@@ -1,0 +1,175 @@
+.background_div {
+  background-image: url("../imgs/istockphoto-1339421590-612x612.jpg");
+  width: 100%;
+  height: 650px;
+  background-attachment: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.form_cd {
+  width: 550px;
+  height: 360px;
+  background-color: #f28a5d;
+  text-align: center;
+  padding-bottom: 110px;
+  border-radius: 10px;
+  position: relative;
+  top: 10%;
+  left: 5%;
+}
+
+.text_divs {
+  color: white;
+  padding-top: 35px;
+}
+
+input {
+  margin: 10px;
+  border: 0.1px solid white;
+  border-width: thin;
+  background-color: #f39d78;
+  color: white;
+  width: 220px;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.date {
+  width: 205px;
+  height: 33px;
+  padding-left: 20px;
+}
+
+input::placeholder {
+  color: white;
+
+}
+
+.dec,
+.dep {
+  border: 0.5px solid white;
+  background-color: #f39d78;
+  color: white;
+  font-size: 14px;
+  width: 226px;
+  height: 80px;
+  border-radius: 7px;
+  /* padding: 0 15px;*/
+  margin-left: 10px;
+}
+
+.first {
+  flex: 50%;
+  margin-left: 36px;
+}
+
+.second {
+  flex: 50%;
+  margin-right: 36px;
+}
+
+.bigg {
+  display: flex;
+}
+
+.bigg:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.submitt {
+  color: black;
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 480px;
+  border: 0px solid white;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.submitt:hover {
+  background-color: rgb(236, 234, 234);
+  cursor: pointer;
+}
+
+.submitt:active {
+  background-color: white;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+}
+
+@media only screen and (max-width: 800px) {
+  .form_cd {
+    width: 375px;
+    height: 250px;
+    border-radius: 5px;
+
+  }
+
+  input {
+    width: 110px;
+    height: 15px;
+    border-radius: 2px;
+    font-size: 8px;
+  }
+
+  .date {
+    width: 95px;
+    height: 16px;
+    border-radius: 2px;
+    font-size: 8px;
+  }
+
+  .dec,
+  .dep {
+    width: 115px;
+    height: 19px;
+    border-radius: 2px;
+    font-size: 8px;
+    text-align: center;
+  }
+
+  .background_div {
+    width: 800px;
+    height: 400px;
+  }
+
+  .color_div {
+    margin-top: 233px;
+    width: 800px;
+    height: 450px;
+  }
+
+  h1 {
+    font-size: 17px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 8px;
+    margin-bottom: 15px;
+  }
+
+  .submitt {
+    width: 268px;
+    height: 20px;
+    font-size: 8px;
+    border-radius: 3px;
+  }
+
+  .dec,
+  .dep {
+    width: 116px;
+  }
+}

@@ -1,0 +1,38 @@
+@media (max-width: 800px) {
+ .item {
+      display: none; 
+      position: absolute;
+     background-color: #f28a5d;
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align: left;
+      transition: 0s ease; 
+    }
+   .navbar .fa-solid {
+      display: block;
+      color: #056c5f;
+      margin: 10px;
+      font-size: 22px;
+      cursor: pointer;
+    }
+    .item a{
+        padding: 25px;
+    } 
+    .navbar a{
+        color: #056c5f ;
+    }
+    .right .prov{
+      margin-left: 6px;
+      width: 70px;
+    }
+    .mes{
+      width: 110px;
+    }
+  
+   
+
+  } 
+
+

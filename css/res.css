@@ -1,0 +1,72 @@
+@media (max-width: 1000px) {
+    .beige{
+        width: 100%; 
+        height: 100%; 
+    
+    }
+    .box{
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+    .overlay{
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        width: 130px;
+        height: 150px;
+        background: white;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       opacity: 0;
+       transition: opacity 0.25s;
+    }
+    .buton{
+        background-color: #f28a5d;
+        line-height: 2px;
+        border-radius: 5px;
+        padding: 10px 10px ;  
+        font-size: xx-small;
+    }
+    .buton a{
+        color: white;
+        font-family: "Montserrat", serif;
+        text-decoration: none;
+        font-size: xx-small;
+        
+    }
+
+    .image1{
+        flex: 100%;
+        width: 150px;
+
+    }
+    .names{
+        text-align: center;
+        font-size: small;  
+    }
+.title i{
+    font-size: 10px;
+}
+.p desc{
+    margin-left: 40px;
+    font-size: 5px;
+    text-align: center;
+    font-size: xx-small;
+}
+.buton{
+    background-color: #f28a5d;
+    line-height: 2px;
+    border-radius: 5px;
+    padding: 10px 10px ;  
+    font-size: xx-small;
+}
+.buton a{
+    color: white;
+    font-family: "Montserrat", serif;
+    text-decoration: none;
+    font-size: xx-small;
+    
+} 
+}
